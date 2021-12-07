@@ -15,7 +15,10 @@ var g_enableAnimation = true;
 
     var DISPLAY_LIMIT = 500000;
 
-    Cesium.Ion.defaultAccessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJlYTIzNzQ4NS1iN2ZmLTQ3ZWQtYjU0OS1mZWI4Nzk0MjcwNDAiLCJpZCI6OTc4Niwic2NvcGVzIjpbImFzciIsImdjIl0sImlhdCI6MTU1NDkxODE3NH0.UUQf2vuc3PN3VPNSUYt5uAbrSv5irvkIe-A57Ocp6ow";
+    // HQN: commented out by HQN and replace with henryqng@outlook.com Token
+    //Cesium.Ion.defaultAccessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJlYTIzNzQ4NS1iN2ZmLTQ3ZWQtYjU0OS1mZWI4Nzk0MjcwNDAiLCJpZCI6OTc4Niwic2NvcGVzIjpbImFzciIsImdjIl0sImlhdCI6MTU1NDkxODE3NH0.UUQf2vuc3PN3VPNSUYt5uAbrSv5irvkIe-A57Ocp6ow";
+
+    Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIwMmFhY2Q4YS1mZjJjLTQ0NTktYjI5Zi0xMWFkOWJhNzc0OWYiLCJpZCI6MTMxOCwiaWF0IjoxNTI3ODY5NzQzfQ.B2jmP_-cmOzg6DLqwD47dFtwuEwUt9YXakI3-qxllpo';
 
     terrainProviderViewModels.push(new Cesium.ProviderViewModel({
         name : 'Cesium World Terrain',
