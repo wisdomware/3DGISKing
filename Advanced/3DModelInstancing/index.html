@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <title>3D Model Instancing</title>
 
-    <link rel="stylesheet" href="https://cesiumjs.org/releases/1.76/Build/Cesium/Widgets/widgets.css">
-    <link rel="stylesheet" href="https://cesiumjs.org/Cesium/Build/Apps/Sandcastle/templates/bucket.css">
+    <link rel="stylesheet" href="https://sandcastle.cesium.com/templates/bucket.css">
     <script src = "https://sandcastle.cesium.com/Sandcastle-header.js"></script>
-    <script src="https://cesiumjs.org/releases/1.76/Build/Cesium/Cesium.js"></script>
+
+    <script src="https://cesium.com/downloads/cesiumjs/releases/1.88/Build/Cesium/Cesium.js"></script>
+    <link href="https://cesium.com/downloads/cesiumjs/releases/1.88/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
     
 </head>
 <body>
@@ -179,7 +180,7 @@
     Sandcastle.addToolbarMenu([ {
         text : 'Aircraft',
         onselect : function() {
-            url = modelPath + 'CesiumAir/Cesium_Air.gltf';
+            url = modelPath + 'CesiumAir/Cesium_Air.glb';
             spacing = 0.0002;
             reset();
         }
